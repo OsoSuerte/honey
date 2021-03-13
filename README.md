@@ -8,9 +8,10 @@
   </a>
 </p>
 
-“SAT PDF Compilation” (SPC) is designed to scrap, clean and compile data from a specific web source. 
+“HONEY” 
 
-Every year over 2 million of high school students across the United States participate in Scholastic Aptitude Tests (SATs). [CollegeBoard][] makes this data easily accessible in PDF form by individual state but the data is not easily analyzed in this form. There is also no readily available source where the raw data can be found. SPC is designed to remedy this dilemma.
+
+Comming soon
 
 # Table of contents
 
@@ -78,4 +79,4 @@ Now that the data is clean it can be exported in the desired format. For this pr
 
 <!--lint enable prohibited-strings-->
 
-[CollegeBoard]: https://reports.collegeboard.org/sat-suite-program-results/
+[Honey]: https://reports.collegeboard.org/sat-suite-program-results/
