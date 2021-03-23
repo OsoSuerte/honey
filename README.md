@@ -18,8 +18,7 @@ Honeybees are disappearing at an alarming rate. As a consequence, the production
 * [Overview](#overview)
 * The Process
   * [Imports](#imports)
-  * [Web Scrapping](#web-scraping)
-  * [PDF Conversion](#pdf-conversion)
+  * [Data Analysis](#Data-Analysis)
   * [Data Cleaning](#data-cleaning)
   * [Data Export](#data-Export)
 
@@ -32,20 +31,19 @@ Honeybees are disappearing at an alarming rate. As a consequence, the production
 Looking for help? Send an email for direct support &lt;hizstor@gmail.com&gt;
 
 ## Overview
-SPC was built with PyCharm 2020.3.3 running Python 3.9.1.
+Honey was built with PyCharm 2020.3.3 running Python 3.9.1.
 
-SPC is designed as a first step to automating the process of compiling SAT data. It will scrape a specific website where individual state SAT data is maintained. The data is collected from the website, reformatted and combined into a single source that can easily be referenced and analyzed. This makes it simple to compare groups of SAT takers. Comparisons can be made between states, regions, demographic groups, previous years, etc. Having the data stored in this manner also makes visualization of the data simple and modular. 
+Honey is designed to take a look at a set of data that shows the downward trend of honey production across the united states and predict production for the years to come. The data is already clean and requires little to no manipulation before modeling. The information will be loaded into a Pandas Dataframe grouped by year and then used to train and a model that will predict future honey production. 
 
 
 ## Imports
 Libraries that must be imported to python environment for code to run successfully 
 
 * **pandas**: Used to build DataFrames.
-* **BeautifulSoup**: From bs4, used for web scraping.
-* **requests**: Used for web scraping.
-* **urljoin**: From urllib.parse, used for web scraping.   
-* **tabula**: Used to extract data from PDFs.
-* **glob, os**: Used to work with directories on a local machine. 
+* **matplotlib.pyplot**: as plt, used for used to visualize data. 
+* **numpy**: as np, a system for working with arrays.   
+* **LinearRegression**: from sklearn.linear_model, built in functions for ML modeling.   
+
 
 
 ## Web Scraping

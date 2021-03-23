@@ -2,7 +2,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from sklearn import linear_model
 from sklearn.linear_model import LinearRegression
 
 # Builds a Pandas DataFrame from the source data from the URL
