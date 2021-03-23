@@ -63,7 +63,7 @@ Now that the data is formatted we can use it in combination with linear regressi
 
 ## Predicting
 
-With the functioning model, it is very easy to apply Sklearn’s predict function to the data. This takes the information plugged into the model and projects future honey production for years to come.  According to this prediction, honey will essentially cease entirely in the mid 50’s. If steps are taken to reverse the course of honey production, this model could be used to project future growth instead of decline. The core of this model is the data if you change the data you will change what the model produces. Minor changes can also be made to show other projections for the data. (What state will be first to stop producing hone, what state will be last to stop producing honey, projecting the price of honey in years to come.  etc)   
+With the functioning model, it is very easy to apply Sklearn’s predict function to the data. This takes the information plugged into the model and projects future honey production for years to come.  According to this prediction, honey will essentially cease entirely in the mid 50’s. If steps are taken to reverse the course of honey production, this model could be used to project future growth instead of decline. The core of this model is the data if you change the data you will change what the model produces. Minor changes can also be made to show other projections for the data. (What state will be first to stop producing honey, what state will be last to stop producing honey, projecting the price of honey in years to come.  etc)   
 
 ## Current project team members
 * [OsoSuerte](https://github.com/OsoSuerte) -
