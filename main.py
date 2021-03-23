@@ -48,7 +48,7 @@ future_predict = regr.predict(X_future)
 # This gives the last value (2050 honey production)
 print(future_predict[-1])
 
-# Show scatter plot that includes predictions for future years.
+# Displays scatter plot that includes predictions for future years.
 plt.plot(X, y, 'o')
 plt.plot(X_future, future_predict, 'o')
 plt.show()
