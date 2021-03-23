@@ -9,7 +9,6 @@ from sklearn.linear_model import LinearRegression
 df = pd.read_csv("https://s3.amazonaws.com/codecademy-content/programs/data-science-path/linear_regression/honeyproduction.csv")
 
 # Un-comment the below lines to see the first few lines of df and a list of its columns.
-
 #print(df.head)
 #print(df.columns)
 
@@ -17,7 +16,6 @@ df = pd.read_csv("https://s3.amazonaws.com/codecademy-content/programs/data-scie
 prod_per_year = df.groupby('year').totalprod.mean().reset_index()
 X = prod_per_year['year']
 X = X.values.reshape(-1, 1)
-
 y = prod_per_year['totalprod']
 
 # Builds a linear regression model and train it with our data using .fit
@@ -30,7 +28,6 @@ y_predict = regr.predict(X)
 '''print(regr.coef_) will give you slop of the line
 print(regr.intercept_) will give you intercept'''
 
-
 # Simple scatter plot to show data points and model predictions.
 plt.scatter(X, y, alpha=0.4)
 plt.plot(X, y, 'o')
@@ -38,7 +35,7 @@ plt.plot(X, y_predict, 'o')
 plt.title("Honey")
 plt.xlabel("Year")
 plt.ylabel("Honey Production")
-#plt.show()
+plt.show()
 
 # Extends the model into the future to predict honey production for years to come.
 X_future = np.array(range(2013, 2053))
