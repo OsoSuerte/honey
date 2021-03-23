@@ -45,10 +45,10 @@ X_future = np.array(range(2013, 2053))
 X_future = X_future.reshape(-1, 1)
 future_predict = regr.predict(X_future)
 
-# This gives the last value (2050 honey production)
+# This gives the last value of future_predict (honey production for the last year)
 print(future_predict[-1])
 
-# Displays scatter plot that includes predictions for future years.
+# Displays a scatter plot that includes predictions for future years.
 plt.plot(X, y, 'o')
 plt.plot(X_future, future_predict, 'o')
 plt.show()
