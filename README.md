@@ -20,7 +20,9 @@ Honeybees are disappearing at an alarming rate. As a consequence, the production
   * [Imports](#imports)
   * [Data Analysis](#Data-Analysis)
   * [Data Cleaning](#data-cleaning)
-  * [Data Export](#data-Export)
+  * [Modeling](#Modeling)
+  * [Predicting](#Predicting)
+
 
 * [Current Project Team Members](#current-project-team-members) 
 
@@ -46,13 +48,9 @@ Libraries that must be imported to python environment for code to run successful
 
 
 
-## Web Scraping
+## Data Analysis
 
-SPC will navigate to [CollegeBoard] website page that has a list of PDFs for each state and territory in the USA as well as a single PDF containing national data. Each file is identified by a .pdf href and downloaded to a local machine. The files are renamed at this time so they will be easier to reference in later steps. This will obtain the PDFs from the most recent reported year (currently 2020.) If earlier data sets are desired the code can easily be modified to collect that data from multiple years.
-    
-## PDF Conversion
-
-The most challenging part of this project is converting information contained in a PDF to data easily accessed in python. The current code only extracts the data from a specific section of each PDF. This can be expanded as desired if information from other portions of the PDFs would be considered useful. SPC extracts this data by iterating through each PDF that was downloaded, identifying tables in the PDF and putting that data into a python list so it can be cleaned. 
+A few lines of code are included to analyze the data as it is presented from the source material. While not strictly necessary in the final code for it to run successfully it shows the process used to find and organize the requisite information later used for modeling. 
 
 ## Data Cleaning
 
