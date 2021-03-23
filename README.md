@@ -10,8 +10,7 @@
 
 “HONEY” 
 
-
-Comming soon
+Honeybees are disappearing at an alarming rate. As a consequence, the production of honey is also on the decline. This project is a simple demonstration of sourcing relatively clean data and using it to build a DataFrame that can be easily queried for the purpose of analysis and used for machine learning predictions.
 
 # Table of contents
 
