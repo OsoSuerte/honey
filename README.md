@@ -54,11 +54,14 @@ A few lines of code are included to analyze the data as it is presented from the
 
 ## Data Cleaning
 
-As is the case with most data obtained from outside sources, this data has a lot of erroneous or poorly organized information. SPC cleans the data so that it can more easily be utilized and understood. Erroneous data is removed and relevant data is reorganized in a way that can be used to create functional lists, dictionaries or DataFrames in Python. This part of the process also combines the data organized by state. 
+The provided data is essentially clean. The only change made was in the creation of a variable to hold the data relevant to the current project in an array. This array holds the information related to the amount of honey produced and sorts it by year. The array is then “.reshaped” to fit modeling requirements.    
+The provided data is essentially clean . 
 
-## Data Export
+## Modeling
 
-Now that the data is clean it can be exported in the desired format. For this project it was exported as a csv file structured as a simple Python dictionary and as a csv file structured as a Pandas DataFrame. The code can easily be modified to export the data in other formats as desired.  
+Now that the data is formatted we can use it in combination with linear regression and plotting functions to create a visual representation of our data. This is done in the form of a scatter plot. The plot shows each of our data points (honey production and year of production) plotted accordingly. It also shows a second set of points representing the linear regression found using the provided data. The plot will show a downward trajectory of honey production. There are also a couple of lines included to show the intercept and slope of the line.
+
+## Predicting
 
 ## Current project team members
 * [OsoSuerte](https://github.com/OsoSuerte) -
