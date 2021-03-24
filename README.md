@@ -55,7 +55,7 @@ A few lines of code are included to analyze the data as it is presented from the
 ## Data Cleaning
 
 The provided data is essentially clean. The only change made was in the creation of a variable to hold the data relevant to the current project in an array. This array holds the information related to the amount of honey produced and sorts it by year. The array is then “.reshaped” to fit modeling requirements.    
-The provided data is essentially clean . 
+The provided data is essentially clean. 
 
 ## Modeling
 
