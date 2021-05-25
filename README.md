@@ -3,12 +3,12 @@
   <a href="https://Oso.com/">
     <img
       alt="Oso"
-      src="http://clipart-library.com/images/ki8pMekir.png" width="192" height="120" 
+      src="https://github.com/OsoSuerte/Logizomechanophobia/blob/master/Osos%20profile.png" width="300" height="300" 
     />
   </a>
 </p>
 
-ìHONEYî 
+‚ÄúHONEY‚Äù 
 
 Honeybees are disappearing at an alarming rate. As a consequence, the production of honey is also on the decline. This project is a simple demonstration of sourcing relatively clean data and using it to build a DataFrame that can be easily queried for the purpose of analysis and used for machine learning predictions.
 
@@ -54,7 +54,7 @@ A few lines of code are included to analyze the data as it is presented from the
 
 ## Data Cleaning
 
-The provided data is essentially clean. The only change made was in the creation of a variable to hold the data relevant to the current project in an array. This array holds the information related to the amount of honey produced and sorts it by year. The array is then ì.reshapedî to fit modeling requirements.    
+The provided data is essentially clean. The only change made was in the creation of a variable to hold the data relevant to the current project in an array. This array holds the information related to the amount of honey produced and sorts it by year. The array is then ‚Äú.reshaped‚Äù to fit modeling requirements.    
 The provided data is essentially clean. 
 
 ## Modeling
@@ -63,7 +63,7 @@ Now that the data is formatted we can use it in combination with linear regressi
 
 ## Predicting
 
-With the functioning model, it is very easy to apply Sklearnís predict function to the data. This takes the information plugged into the model and projects future honey production for years to come.  According to this prediction, honey will essentially cease entirely in the mid 50ís. If steps are taken to reverse the course of honey production, this model could be used to project future growth instead of decline. The core of this model is the data if you change the data you will change what the model produces. Minor changes can also be made to show other projections for the data. (What state will be first to stop producing honey, what state will be last to stop producing honey, projecting the price of honey in years to come.  etc)   
+With the functioning model, it is very easy to apply Sklearn‚Äôs predict function to the data. This takes the information plugged into the model and projects future honey production for years to come.  According to this prediction, honey will essentially cease entirely in the mid 50‚Äôs. If steps are taken to reverse the course of honey production, this model could be used to project future growth instead of decline. The core of this model is the data if you change the data you will change what the model produces. Minor changes can also be made to show other projections for the data. (What state will be first to stop producing honey, what state will be last to stop producing honey, projecting the price of honey in years to come.  etc)   
 
 ## Current project team members
 * [OsoSuerte](https://github.com/OsoSuerte) -
